@@ -1,4 +1,4 @@
-# FortuneBot :crystalball:
+# FortuneBot :crystal_ball:
  A Discord bot to tell your fortune.
 
 ## Magic 8 Ball
