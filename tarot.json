@@ -1,0 +1,392 @@
+[
+  {
+    "id": 0,
+    "name": "The Ace of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 1,
+    "name": "The Two of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 2,
+    "name": "The Three of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 3,
+    "name": "The Four of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 4,
+    "name": "The Five of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 5,
+    "name": "The Six of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 6,
+    "name": "The Seven of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 7,
+    "name": "The Eight of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 8,
+    "name": "The Nine of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 9,
+    "name": "The Ten of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 10,
+    "name": "The Page of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 11,
+    "name": "The Knight of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 12,
+    "name": "The Queen of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 13,
+    "name": "The King of Wands",
+    "meaning": ""
+  },
+  {
+    "id": 14,
+    "name": "The Ace of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 15,
+    "name": "The Two of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 16,
+    "name": "The Three of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 17,
+    "name": "The Four of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 18,
+    "name": "The Five of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 19,
+    "name": "The Six of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 20,
+    "name": "The Seven of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 21,
+    "name": "The Eight of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 22,
+    "name": "The Nine of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 23,
+    "name": "The Ten of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 24,
+    "name": "The Page of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 25,
+    "name": "The Knight of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 26,
+    "name": "The Queen of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 27,
+    "name": "The King of Pentacles",
+    "meaning": ""
+  },
+  {
+    "id": 28,
+    "name": "The Ace of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 29,
+    "name": "The Two of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 30,
+    "name": "The Three of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 31,
+    "name": "The Four of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 32,
+    "name": "The Five of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 33,
+    "name": "The Six of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 34,
+    "name": "The Seven of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 35,
+    "name": "The Eight of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 36,
+    "name": "The Nine of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 37,
+    "name": "The Ten of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 38,
+    "name": "The Page of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 39,
+    "name": "The Knight of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 40,
+    "name": "The Queen of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 41,
+    "name": "The King of Swords",
+    "meaning": ""
+  },
+  {
+    "id": 42,
+    "name": "The Ace of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 43,
+    "name": "The Two of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 44,
+    "name": "The Three of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 45,
+    "name": "The Four of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 46,
+    "name": "The Five of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 47,
+    "name": "The Six of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 48,
+    "name": "The Seven of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 49,
+    "name": "The Eight of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 50,
+    "name": "The Nine of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 51,
+    "name": "The Ten of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 52,
+    "name": "The Page of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 53,
+    "name": "The Knight of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 54,
+    "name": "The Queen of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 55,
+    "name": "The King of Cups",
+    "meaning": ""
+  },
+  {
+    "id": 56,
+    "name": "The Fool",
+    "meaning": ""
+  },
+  {
+    "id": 57,
+    "name": "The Magician",
+    "meaning": ""
+  },
+  {
+    "id": 58,
+    "name": "The High Priestess",
+    "meaning": ""
+  },
+  {
+    "id": 59,
+    "name": "The Empress",
+    "meaning": ""
+  },
+  {
+    "id": 60,
+    "name": "The Emperor",
+    "meaning": ""
+  },
+  {
+    "id": 61,
+    "name": "The Hierophant",
+    "meaning": ""
+  },
+  {
+    "id": 62,
+    "name": "The Lovers",
+    "meaning": ""
+  },
+  {
+    "id": 63,
+    "name": "The Chariot",
+    "meaning": ""
+  },
+  {
+    "id": 64,
+    "name": "Strength",
+    "meaning": ""
+  },
+  {
+    "id": 65,
+    "name": "The Hermit",
+    "meaning": ""
+  },
+  {
+    "id": 66,
+    "name": "Wheel of Fortune",
+    "meaning": ""
+  },
+  {
+    "id": 67,
+    "name": "Justice",
+    "meaning": ""
+  },
+  {
+    "id": 68,
+    "name": "The Hanged Man",
+    "meaning": ""
+  },
+  {
+    "id": 69,
+    "name": "Death",
+    "meaning": ""
+  },
+  {
+    "id": 70,
+    "name": "Temperance",
+    "meaning": ""
+  },
+  {
+    "id": 71,
+    "name": "The Devil",
+    "meaning": ""
+  },
+  {
+    "id": 72,
+    "name": "The Tower",
+    "meaning": ""
+  },
+  {
+    "id": 73,
+    "name": "The Star",
+    "meaning": ""
+  },
+  {
+    "id": 74,
+    "name": "The Moon",
+    "meaning": ""
+  },
+  {
+    "id": 75,
+    "name": "The Sun",
+    "meaning": ""
+  },
+  {
+    "id": 76,
+    "name": "Judgement",
+    "meaning": ""
+  },
+  {
+    "id": 77,
+    "name": "The World",
+    "meaning": ""
+  }
+]

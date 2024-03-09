@@ -71,6 +71,17 @@ async def numbers(interaction, date: int, month: int, year: int):
         await interaction.response.send_message(f'Your life path number is {life_path_number}.')
 
 
+# tarot card (single) command #
+@tree.command(name="tarot-card", description="Draw a single Tarot card.", guild=discord.Object(id=GUILD_ID))
+async def numbers(interaction):
+    card_id = random.randint(0, 77)
+
+    with open('tarot.json') as tarot_json:
+        data = json.load(tarot_json)
+        card = data[card_id]
+
+        await interaction.response.send_message(f'Your card is: {card.get("name")}')
+
 
 
 
