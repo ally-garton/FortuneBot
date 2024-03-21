@@ -75,14 +75,24 @@ async def numbers(interaction, date: int, month: int, year: int):
 @tree.command(name="tarot-card", description="Draw a single Tarot card.", guild=discord.Object(id=GUILD_ID))
 async def numbers(interaction):
     card_id = random.randint(0, 77)
+    orientation = random.randint(0, 1)
 
     with open('tarot.json') as tarot_json:
         data = json.load(tarot_json)
         card = data[card_id]
+        card_meaning_array = []
 
-        await interaction.response.send_message(f'Your card is: {card.get("name")}')
+        if orientation == 0:
+            card_meaning_array = (card.get("reverse_meaning")).split(", ")
+        else:
+            card_meaning_array = (card.get("meaning")).split(", ")
+
+        card_meaning_array[-1] = f'and {card_meaning_array[-1]}'
+
+        card_meaning = ', '.join(card_meaning_array).lower()
 
 
+        await interaction.response.send_message(f'Your card is: {card.get("name")}{f" (reversed)" if (orientation == 0) else ""}. This typically represents {card_meaning}.')
 
 
 client.run(TOKEN)

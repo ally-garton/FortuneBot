@@ -2,391 +2,469 @@
   {
     "id": 0,
     "name": "The Ace of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 1,
     "name": "The Two of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 2,
     "name": "The Three of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 3,
     "name": "The Four of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 4,
     "name": "The Five of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 5,
     "name": "The Six of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 6,
     "name": "The Seven of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 7,
     "name": "The Eight of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 8,
     "name": "The Nine of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 9,
     "name": "The Ten of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 10,
     "name": "The Page of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 11,
     "name": "The Knight of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 12,
     "name": "The Queen of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 13,
     "name": "The King of Wands",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 14,
     "name": "The Ace of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 15,
     "name": "The Two of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 16,
     "name": "The Three of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 17,
     "name": "The Four of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 18,
     "name": "The Five of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 19,
     "name": "The Six of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 20,
     "name": "The Seven of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 21,
     "name": "The Eight of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 22,
     "name": "The Nine of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 23,
     "name": "The Ten of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 24,
     "name": "The Page of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 25,
     "name": "The Knight of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 26,
     "name": "The Queen of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 27,
     "name": "The King of Pentacles",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 28,
     "name": "The Ace of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 29,
     "name": "The Two of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 30,
     "name": "The Three of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 31,
     "name": "The Four of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 32,
     "name": "The Five of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 33,
     "name": "The Six of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 34,
     "name": "The Seven of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 35,
     "name": "The Eight of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 36,
     "name": "The Nine of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 37,
     "name": "The Ten of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 38,
     "name": "The Page of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 39,
     "name": "The Knight of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 40,
     "name": "The Queen of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 41,
     "name": "The King of Swords",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 42,
     "name": "The Ace of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 43,
     "name": "The Two of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 44,
     "name": "The Three of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 45,
     "name": "The Four of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 46,
     "name": "The Five of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 47,
     "name": "The Six of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 48,
     "name": "The Seven of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 49,
     "name": "The Eight of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 50,
     "name": "The Nine of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 51,
     "name": "The Ten of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 52,
     "name": "The Page of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 53,
     "name": "The Knight of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 54,
     "name": "The Queen of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 55,
     "name": "The King of Cups",
-    "meaning": ""
+    "meaning": "",
+    "reverse_meaning": ""
   },
   {
     "id": 56,
     "name": "The Fool",
-    "meaning": ""
+    "meaning": "Innocence, new beginnings, free spirit",
+    "reverse_meaning": "Recklessness, being taken advantage of, inconsideration"
   },
   {
     "id": 57,
     "name": "The Magician",
-    "meaning": ""
+    "meaning": "Willpower, desire, creation, manifestation",
+    "reverse_meaning": "Trickery, illusions, out of touch"
   },
   {
     "id": 58,
     "name": "The High Priestess",
-    "meaning": ""
+    "meaning": "Intuition, unconscious, inner voice",
+    "reverse_meaning": "Lack of center, lost inner voice, repressed feelings"
   },
   {
     "id": 59,
     "name": "The Empress",
-    "meaning": ""
+    "meaning": "Motherhood, fertility, nature",
+    "reverse_meaning": "Dependence, smothering, emptiness"
   },
   {
     "id": 60,
     "name": "The Emperor",
-    "meaning": ""
+    "meaning": "Authority, structure, control, fatherhood",
+    "reverse_meaning": "Tyranny, rigidity, coldness"
   },
   {
     "id": 61,
     "name": "The Hierophant",
-    "meaning": ""
+    "meaning": "Tradition, conformity, morality and ethics",
+    "reverse_meaning": "Rebellion, subversiveness, new approaches"
   },
   {
     "id": 62,
     "name": "The Lovers",
-    "meaning": ""
+    "meaning": "Partnerships, union, duality, choice",
+    "reverse_meaning": "Loss of balance, one-sidedness, disharmony"
   },
   {
     "id": 63,
     "name": "The Chariot",
-    "meaning": ""
+    "meaning": "Direction, control, willpower",
+    "reverse_meaning": "Lack of control, lack of direction, aggression"
   },
   {
     "id": 64,
     "name": "Strength",
-    "meaning": ""
+    "meaning": "Bravery, compassion, focus, inner strength",
+    "reverse_meaning": "Self doubt, weakness, insecurity"
   },
   {
     "id": 65,
     "name": "The Hermit",
-    "meaning": ""
+    "meaning": "Contemplation, search for truth, inner guidance",
+    "reverse_meaning": "Loneliness, isolation, lost your way"
   },
   {
     "id": 66,
     "name": "Wheel of Fortune",
-    "meaning": ""
+    "meaning": "Change, cycles, inevitable fate",
+    "reverse_meaning": "No control, clinging to control, bad luck"
   },
   {
     "id": 67,
     "name": "Justice",
-    "meaning": ""
+    "meaning": "Cause and effect, clarity, truth",
+    "reverse_meaning": "Dishonesty, unaccountability, unfairness"
   },
   {
     "id": 68,
     "name": "The Hanged Man",
-    "meaning": ""
+    "meaning": "Sacrifice, release, martyrdom",
+    "reverse_meaning": "Stalling, needless sacrifice, fear of sacrifice"
   },
   {
     "id": 69,
     "name": "Death",
-    "meaning": ""
+    "meaning": "End of a cycle, beginnings, change, metamorphosis",
+    "reverse_meaning": "Fear of change, holding on, stagnation"
   },
   {
     "id": 70,
     "name": "Temperance",
-    "meaning": ""
+    "meaning": "The middle path, patience, finding meaning",
+    "reverse_meaning": "Extremes, excess, lack of balance"
   },
   {
     "id": 71,
     "name": "The Devil",
-    "meaning": ""
+    "meaning": "Excess, materialism, playfulness",
+    "reverse_meaning": "Freedom, release, restoring control"
   },
   {
     "id": 72,
     "name": "The Tower",
-    "meaning": ""
+    "meaning": "Sudden upheaval, pride, disaster",
+    "reverse_meaning": "Disaster avoided, delaying disaster, fear of suffering"
   },
   {
     "id": 73,
     "name": "The Star",
-    "meaning": ""
+    "meaning": "Hope, faith, rejuvenation",
+    "reverse_meaning": "Insecurity, discouragement, faithlessness"
   },
   {
     "id": 74,
     "name": "The Moon",
-    "meaning": ""
+    "meaning": "Unconscious, illusions, intuition",
+    "reverse_meaning": "Confusion, fear, misinterpretation"
   },
   {
     "id": 75,
     "name": "The Sun",
-    "meaning": ""
+    "meaning": "Joy, success, celebration, positivity",
+    "reverse_meaning": "Negativity, depression, sadness"
   },
   {
     "id": 76,
     "name": "Judgement",
-    "meaning": ""
+    "meaning": "Reflection, reckoning, inner voice",
+    "reverse_meaning": "Lack of self-awareness, doubt, self-loathing"
   },
   {
     "id": 77,
     "name": "The World",
-    "meaning": ""
+    "meaning": "Fulfillment, harmony, completion",
+    "reverse_meaning": "Incompletion, no closure, incomplete goals"
   }
 ]
