@@ -4,6 +4,9 @@ import discord
 import random
 import json
 
+import requests
+from bs4 import BeautifulSoup
+
 from discord import app_commands
 from dotenv import load_dotenv
 
@@ -75,7 +78,7 @@ async def life_path(interaction, date: app_commands.Range[int, 1, 31], month: ap
 async def destiny_number(interaction, full_name: str):
     numbers_dict = { "a" : 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6, "g": 7, "h": 8, "i": 9, "j": 1, "k": 2, "l": 3, "m": 4, "n": 5, "o": 6, "p": 7, "q": 8, "r": 9, "s": 1, "t": 2, "u": 3, "v": 4, "w": 5, "x": 6, "y": 7, "z": 8 }
 
-    name_array = full_name.split()
+    name_array = full_name.lower().split()
     name_total = 0
     name_total_array = []
 
@@ -121,7 +124,34 @@ async def destiny_number(interaction, full_name: str):
 
     await interaction.response.send_message(f'Your destiny number is {destiny_number}.')
 
-    
+
+# daily horoscope command #
+@tree.command(name="horoscope", description="Your daily horoscope, pulled from horoscope.com", guild=discord.Object(id=GUILD_ID))
+async def horoscope(interaction, sign: str):
+    star_signs = { "aries": 1, "taurus": 2, "gemini": 3, "cancer": 4, "leo": 5, "virgo": 6, "libra": 7, "scorpio": 8, "sagittarius": 9, "capricorn": 10, "aquarius": 11, "pisces": 12  }
+    sign_value = 0
+
+    if not (sign.lower() in star_signs):
+        horoscope_p = "Oops! That's not a valid star sign...did you spell it correctly?"
+
+    else:
+        sign_value = star_signs[sign]
+
+        url = f"https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign={sign_value}"
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        horoscope_div = soup.find('div', class_="main-horoscope").text
+
+        for element in horoscope_div:
+            horoscope_p = str(soup.find('p', class_=""))
+
+        elements = ["<p>", "</p>", "<strong>", "</strong>"]
+
+        for x in range(0, len(elements)):
+            horoscope_p = horoscope_p.replace(elements[x], "")
+
+    await interaction.response.send_message(f'{horoscope_p}')
 
 
 # tarot card (single) command #

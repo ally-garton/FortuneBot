@@ -11,6 +11,9 @@ Input your birthday - `date`, `month`, and `year` - and FortuneBot will calculat
 - [x] Create birthday functionality
 - [x] Create name functionality
 
+## Horoscope
+Enter your star `sign` as a string and FortuneBot pulls your daily horoscope from [horoscope.com](https://www.horoscope.com/us/index.aspx).
+
 ## Tarot (single card)
 Draw a single Tarot card from a standard Rider-Waite deck. Takes no arguments.
 
