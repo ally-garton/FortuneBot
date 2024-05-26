@@ -44,10 +44,9 @@ async def magic_8ball(interaction, question: str):
 
 
 # numerology (birthday) command #
-@tree.command(name="numerology", description="Find your life path number.", guild=discord.Object(id=GUILD_ID))
-async def numbers(interaction, date: int, month: int, year: int):
-    if (date > 31 or date < 1) or (month < 1 or month > 12) or (year < 1000 or year > 9999) or (month == (4 or 6 or 9 or 11) and date > 30) or (month == 2 and date > 28 and (year % 4 != 0)) or (month == 2 and date > 29 and (year % 4 == 0)):
-        print('invalid date')
+@tree.command(name="numerology", description="Input your birthday to find your life path number.", guild=discord.Object(id=GUILD_ID))
+async def life_path(interaction, date: app_commands.Range[int, 1, 31], month: app_commands.Range[int, 1, 12], year: app_commands.Range[int, 1000, 9999]):
+    if (month == (4 or 6 or 9 or 11) and date > 30) or (month == 2 and date > 28 and (year % 4 != 0)) or (month == 2 and date > 29 and (year % 4 == 0)):
         await interaction.response.send_message('Invalid date!')
     
     else:
@@ -62,7 +61,7 @@ async def numbers(interaction, date: int, month: int, year: int):
             date_total += int(date_array[i])
         
         life_path_total = list(str(date_total))
-        life_path_number = 0;
+        life_path_number = 0
 
         for i in range(0, len(life_path_total)):
             life_path_number += int(life_path_total[i])
@@ -71,9 +70,63 @@ async def numbers(interaction, date: int, month: int, year: int):
         await interaction.response.send_message(f'Your life path number is {life_path_number}.')
 
 
+# numerology (name) command #
+@tree.command(name="destiny", description="Input your full name to find your destiny number.", guild=discord.Object(id=GUILD_ID))
+async def destiny_number(interaction, full_name: str):
+    numbers_dict = { "a" : 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6, "g": 7, "h": 8, "i": 9, "j": 1, "k": 2, "l": 3, "m": 4, "n": 5, "o": 6, "p": 7, "q": 8, "r": 9, "s": 1, "t": 2, "u": 3, "v": 4, "w": 5, "x": 6, "y": 7, "z": 8 }
+
+    name_array = full_name.split()
+    name_total = 0
+    name_total_array = []
+
+    # for each name (separated by spaces), find the sum of their values and put individual name values in an array
+    # e.g. john doe -> ['john', 'doe'] -> [(1 + 6 + 8 + 5), (4 + 6 + 5)] -> [20, 15]
+    for x in range(0, len(name_array)):
+        for y in range(0, len(name_array[x])):
+            if name_array[x][y] in numbers_dict:
+                name_total += numbers_dict[name_array[x][y]]
+
+        name_total_array.append(str(name_total))
+        name_total = 0
+
+    # converts values in the array to single digit values
+    # e.g. [20, 15] -> [(2 + 0), (1 + 5)] -> [2, 6]
+    destiny_total = 0
+    destiny_total_array = []
+    for x in range(0, len(name_total_array)):
+        if not (name_total_array[x] == 11 or name_total_array[x] == 22):
+            for y in range(0, len(name_total_array[x])):
+                destiny_total += int(name_total_array[x][y])
+
+            destiny_total_array.append(destiny_total)
+            destiny_total = 0
+
+        else:
+            destiny_total_array.append(name_total_array[x])
+
+
+    # finds the sum of the array values and then converts it to a single digit
+    # e.g. [2, 6] -> 8 (already single digit)
+    destiny_number = 0
+    for x in range(0, len(destiny_total_array)):
+        destiny_number += destiny_total_array[x]
+
+    if destiny_number >= 10 and destiny_number != 11 and destiny_number != 22:
+        destiny_number = str(destiny_number)
+        temp = 0
+        for x in range(0, len(destiny_number)):
+            temp += int(destiny_number[x])
+
+        destiny_number = temp
+
+    await interaction.response.send_message(f'Your destiny number is {destiny_number}.')
+
+    
+
+
 # tarot card (single) command #
 @tree.command(name="tarot-card", description="Draw a single Tarot card.", guild=discord.Object(id=GUILD_ID))
-async def numbers(interaction):
+async def single_tarot(interaction):
     card_id = random.randint(0, 77)
     orientation = random.randint(0, 1)
 

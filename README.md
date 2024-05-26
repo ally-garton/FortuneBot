@@ -9,7 +9,7 @@ Input your birthday - `date`, `month`, and `year` - and FortuneBot will calculat
 
 > :memo: **To Do:**
 - [x] Create birthday functionality
-- [ ] Create name functionality
+- [x] Create name functionality
 
 ## Tarot (single card)
 Draw a single Tarot card from a standard Rider-Waite deck. Takes no arguments.
