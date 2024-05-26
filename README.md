@@ -10,6 +10,10 @@ Input your birthday - `date`, `month`, and `year` - and FortuneBot will calculat
 > :memo: **To Do:**
 - [x] Create birthday functionality
 - [x] Create name functionality
+- [ ] Amend birthday function to recognise 11 and 22 as master numbers
+
+## Numerology (full name)
+Enter your full name as a single input (`full_name`) and FortuneBot will calculate your destiny number.
 
 ## Horoscope
 Enter your star `sign` as a string and FortuneBot pulls your daily horoscope from [horoscope.com](https://www.horoscope.com/us/index.aspx).
